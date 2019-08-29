@@ -47,4 +47,22 @@ dependencies {
     def lifecycle_version = "2.0.0"
     // ViewModel and LiveData
     implementation "androidx.lifecycle:lifecycle-extensions:$lifecycle_version"
+
+//    implementation 'androidx.constraintlayout:constraintlayout:2.0.0-beta2'
+
+
+    implementation 'androidx.appcompat:appcompat:1.0.0-alpha1'
+//    implementation 'androidx.constraintlayout:constraintlayout:1.1.2'
+
+    implementation([
+            'androidx.legacy:legacy-preference-v14:1.0.0',
+            'androidx.palette:palette:1.0.0',
+            'androidx.recyclerview:recyclerview:1.0.0',
+            'androidx.cardview:cardview:1.0.0',
+            'androidx.annotation:annotation:1.0.0',
+            'androidx.constraintlayout:constraintlayout:2.0.0-alpha3',
+            'com.google.android:flexbox:1.0.0',
+            'com.google.android.material:material:1.1.0-alpha01'
+    ])
+
 }
