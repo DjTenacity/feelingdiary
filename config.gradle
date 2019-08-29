@@ -1,0 +1,38 @@
+ext {
+
+    isApplication = false  //false:作为Lib组件存在， true:作为application存在，这个不建议改
+    isLocalApplication = false  // 模块开关，false:作为Lib组件存在， true:作为application存在
+
+    android = [
+            compileSdkVersion: 28,
+            buildToolsVersion: "28.0.3",
+            minSdkVersion    : 22,
+            targetSdkVersion : 28,
+            versionCode      : 20493,
+            versionName      : "2.4.9.3"    //必须是int或者float，否则影响线上升级
+    ]
+
+    version = [
+            androidSupportSdkVersion: "28.0.0",
+            retrofitSdkVersion      : "2.4.0",
+            glideSdkVersion         : "4.8.0",
+            canarySdkVersion        : "1.5.4",
+            constraintVersion       : "1.0.2",
+            okhttp                  : "3.8.1"
+    ]
+
+
+    dependencies = [
+
+            //image
+            "glide"                    : "com.github.bumptech.glide:glide:${version["glideSdkVersion"]}",
+            "glide-compiler"           : "com.github.bumptech.glide:compiler:${version["glideSdkVersion"]}",
+            "glide-okhttp3-integration": "com.github.bumptech.glide:okhttp3-integration:${version["glideSdkVersion"]}",
+            "glide-transformations"    : "jp.wasabeef:glide-transformations:3.3.0",
+
+            //router
+            "router"                   : "com.alibaba:arouter-api:1.5.0",
+            "router-compiler"          : "com.alibaba:arouter-compiler:1.2.2",
+
+    ]
+}

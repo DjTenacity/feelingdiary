@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <root-path
+        name="root"
+        path="." />
+
+    <files-path
+        name="files"
+        path="." />
+
+    <cache-path
+        name="cache"
+        path="." />
+
+    <external-path
+        name="external"
+        path="." />
+
+    <external-files-path
+        name="external_file"
+        path="." />
+
+    <external-cache-path
+        name="external_cache"
+        path="." />
+</paths>
+
+
+    <!--
+    files-path 对应目录Context.getFilesDir()
+    cache-path 对应目录Context.getCacheDir()
+    external-path 对应目录Environment.getExternalStorageDirectory()
+    external-files-path 对应目录Context,getExternalFilesDir(String) 或者Context.getExternalFilesDir(null)
+    external-cache-path 对应目录Context.getExternalCacheDir()。
+
+    name 是分享的文件路径的一部分，它会覆盖要分享的真实的路径，即path指定的路径。
+
+     <files-path name="my_images" path="images"/>
+    path 即文件真实路径，最后创建出来的文件路径为（参照上述例子）：Context.getFilesDir()+path+”/”+文件名。
+    -->

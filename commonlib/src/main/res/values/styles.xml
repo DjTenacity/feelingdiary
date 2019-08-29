@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Toolbar Activity theme. -->
+    <style name="ToolbarActivityTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="android:screenOrientation">portrait</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowNoTitle">true</item>
+
+    </style>
+
+    <!--透明主题-->
+    <style name="ShadowActivity" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="PermissionReqTipDialog" parent="Theme.AppCompat.Light.Dialog">
+
+    </style>
+</resources>
