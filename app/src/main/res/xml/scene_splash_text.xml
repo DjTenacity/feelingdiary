@@ -32,13 +32,13 @@
         <OnClick motion:clickAction="toggle"
                  motion:target="@id/r"/>
 
-        <!--左侧 E 过渡到起始状态-->
-        <OnClick motion:clickAction="transitionToStart"
-                 motion:target="@id/i1"/>
+        <!--&lt;!&ndash;左侧 E 过渡到起始状态&ndash;&gt;-->
+        <!--<OnClick motion:clickAction="transitionToStart"-->
+                 <!--motion:target="@id/i1"/>-->
 
-        <!--右侧 E 过渡到结束状态-->
-        <OnClick  motion:clickAction="transitionToEnd"
-                 motion:target="@id/i2"/>
+        <!--&lt;!&ndash;右侧 E 过渡到结束状态&ndash;&gt;-->
+        <!--<OnClick  motion:clickAction="transitionToEnd"-->
+                 <!--motion:target="@id/i2"/>-->
 
 
         <KeyFrameSet>
