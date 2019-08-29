@@ -41,99 +41,99 @@
                  motion:target="@id/i2"/>
 
 
-        <!--<KeyFrameSet>-->
-            <!--&lt;!&ndash; 位置关键帧 使用 path 坐标系 &ndash;&gt;-->
-            <!--<KeyPosition motion:target="@id/f"-->
-                         <!--motion:framePosition="85"-->
-                         <!--motion:percentX="0.8"-->
-                         <!--motion:percentY="-0.15"-->
-                         <!--motion:keyPositionType="pathRelative"/>-->
+        <KeyFrameSet>
+            <!-- 位置关键帧 使用 path 坐标系 -->
+            <KeyPosition motion:target="@id/f"
+                         motion:framePosition="85"
+                         motion:percentX="0.8"
+                         motion:percentY="-0.15"
+                         motion:keyPositionType="pathRelative"/>
 
-            <!--<KeyPosition motion:target="@id/e1"-->
-                         <!--motion:framePosition="85"-->
-                         <!--motion:percentX="0.9"-->
-                         <!--motion:percentY="0.25"-->
-                         <!--motion:keyPositionType="pathRelative"/>-->
-            <!--<KeyPosition motion:target="@id/e2"-->
-                         <!--motion:framePosition="65"-->
-                         <!--motion:percentX="0.6"-->
-                         <!--motion:percentY="0.25"-->
-                         <!--motion:keyPositionType="pathRelative"/>-->
-            <!--<KeyPosition motion:target="@id/i1"-->
-                         <!--motion:framePosition="65"-->
-                         <!--motion:percentX="0.8"-->
-                         <!--motion:percentY="-0.15"-->
-                         <!--motion:keyPositionType="pathRelative"/>-->
+            <KeyPosition motion:target="@id/e1"
+                         motion:framePosition="85"
+                         motion:percentX="0.9"
+                         motion:percentY="0.25"
+                         motion:keyPositionType="pathRelative"/>
+            <KeyPosition motion:target="@id/e2"
+                         motion:framePosition="65"
+                         motion:percentX="0.6"
+                         motion:percentY="0.25"
+                         motion:keyPositionType="pathRelative"/>
+            <KeyPosition motion:target="@id/i1"
+                         motion:framePosition="65"
+                         motion:percentX="0.8"
+                         motion:percentY="-0.15"
+                         motion:keyPositionType="pathRelative"/>
 
-            <!--<KeyPosition motion:target="@id/n"-->
-                         <!--motion:framePosition="40"-->
-                         <!--motion:percentX="0.7"-->
-                         <!--motion:percentY="-0.25"-->
-                         <!--motion:keyPositionType="pathRelative"/>-->
-            <!--<KeyPosition motion:target="@id/g"-->
-                         <!--motion:framePosition="80"-->
-                         <!--motion:percentX="0.7"-->
-                         <!--motion:percentY="-0.25"-->
-                         <!--motion:keyPositionType="pathRelative"/>-->
+            <KeyPosition motion:target="@id/n"
+                         motion:framePosition="40"
+                         motion:percentX="0.7"
+                         motion:percentY="-0.25"
+                         motion:keyPositionType="pathRelative"/>
+            <KeyPosition motion:target="@id/g"
+                         motion:framePosition="80"
+                         motion:percentX="0.7"
+                         motion:percentY="-0.25"
+                         motion:keyPositionType="pathRelative"/>
 
-            <!--&lt;!&ndash;对 D 同时设置两个关键帧&ndash;&gt;-->
-            <!--<KeyPosition motion:target="@id/d"-->
-                         <!--motion:framePosition="85"-->
-                         <!--motion:percentX="0.95"-->
-                         <!--motion:percentY="0.25"-->
-                         <!--motion:keyPositionType="pathRelative"/>-->
+            <!--对 D 同时设置两个关键帧-->
+            <KeyPosition motion:target="@id/d"
+                         motion:framePosition="85"
+                         motion:percentX="0.95"
+                         motion:percentY="0.25"
+                         motion:keyPositionType="pathRelative"/>
 
-            <!--<KeyPosition motion:target="@id/d"-->
-                         <!--motion:framePosition="35"-->
-                         <!--motion:percentX="0.35"-->
-                         <!--motion:percentY="-0.05"-->
-                         <!--motion:keyPositionType="pathRelative"/>-->
-
-
-            <!--<KeyPosition motion:target="@id/i2"-->
-                         <!--motion:framePosition="35"-->
-                         <!--motion:percentX="0.05"-->
-                         <!--motion:percentY="0.2"-->
-                         <!--motion:keyPositionType="pathRelative"/>-->
+            <KeyPosition motion:target="@id/d"
+                         motion:framePosition="35"
+                         motion:percentX="0.35"
+                         motion:percentY="-0.05"
+                         motion:keyPositionType="pathRelative"/>
 
 
-            <!--<KeyPosition motion:target="@id/i2"-->
-                         <!--motion:framePosition="85"-->
-                         <!--motion:percentX="0.85"-->
-                         <!--motion:percentY="0.2"-->
-                         <!--motion:keyPositionType="pathRelative"/>-->
-
-            <!--<KeyPosition motion:target="@id/r"-->
-                         <!--motion:framePosition="15"-->
-                         <!--motion:transitionEasing="accelerate"-->
-                         <!--motion:keyPositionType="deltaRelative"-->
-                         <!--motion:percentY="0.15"/>-->
+            <KeyPosition motion:target="@id/i2"
+                         motion:framePosition="35"
+                         motion:percentX="0.05"
+                         motion:percentY="0.2"
+                         motion:keyPositionType="pathRelative"/>
 
 
-            <!--<KeyPosition motion:target="@id/d"-->
-                         <!--motion:framePosition="85"-->
-                         <!--motion:transitionEasing="decelerate"-->
-                         <!--motion:percentX="1.1"-->
-                         <!--motion:percentY="-0.45"-->
-                         <!--motion:keyPositionType="pathRelative"/>-->
+            <KeyPosition motion:target="@id/i2"
+                         motion:framePosition="85"
+                         motion:percentX="0.85"
+                         motion:percentY="0.2"
+                         motion:keyPositionType="pathRelative"/>
+
+            <KeyPosition motion:target="@id/r"
+                         motion:framePosition="15"
+                         motion:transitionEasing="accelerate"
+                         motion:keyPositionType="deltaRelative"
+                         motion:percentY="0.15"/>
 
 
-            <!--&lt;!&ndash; 在 90% 的时候到达终点&ndash;&gt;-->
-            <!--<KeyPosition motion:target="@id/a"-->
-                         <!--motion:framePosition="90"-->
-                         <!--motion:percentX="1"-->
-                         <!--motion:percentY="0"-->
-                         <!--motion:keyPositionType="pathRelative"/>-->
+            <KeyPosition motion:target="@id/y"
+                         motion:framePosition="85"
+                         motion:transitionEasing="decelerate"
+                         motion:percentX="1.1"
+                         motion:percentY="-0.45"
+                         motion:keyPositionType="pathRelative"/>
 
 
-            <!--&lt;!&ndash; 差值坐标系 &ndash;&gt;-->
-            <!--<KeyPosition motion:target="@id/a"-->
-                         <!--motion:framePosition="95"-->
-                         <!--motion:percentX="1"-->
-                         <!--motion:percentY="1.2"-->
-                         <!--motion:keyPositionType="deltaRelative"/>-->
+            <!-- 在 90% 的时候到达终点-->
+            <KeyPosition motion:target="@id/a"
+                         motion:framePosition="90"
+                         motion:percentX="1"
+                         motion:percentY="0"
+                         motion:keyPositionType="pathRelative"/>
 
-        <!--</KeyFrameSet>-->
+
+            <!-- 差值坐标系 -->
+            <KeyPosition motion:target="@id/a"
+                         motion:framePosition="95"
+                         motion:percentX="1"
+                         motion:percentY="1.2"
+                         motion:keyPositionType="deltaRelative"/>
+
+        </KeyFrameSet>
     </Transition>
 
     <ConstraintSet android:id="@+id/start">
